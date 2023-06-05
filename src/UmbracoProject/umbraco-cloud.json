@@ -1,7 +1,18 @@
 {
   "Deploy": {
     "Project": {
-      "Workspaces": []
+      "Name": "rs2e nl",
+      "Alias": "rs2e-nl",
+      "Id": "03b9056a-9095-4401-8ac2-2fa5adcb08aa",
+      "TrialExpireDate": "2023-06-19T21:40:41.0000000",
+      "Workspaces": [
+        {
+          "Id": "0d46bfdf-dfc9-4a5d-ab7f-ac105386791c",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://rs2e-nl.euwest01.umbraco.io"
+        }
+      ]
     },
     "Settings": {}
   },
