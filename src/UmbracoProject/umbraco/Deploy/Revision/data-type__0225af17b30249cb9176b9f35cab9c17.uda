@@ -1,0 +1,21 @@
+{
+  "Name": "Approved Color",
+  "Alias": "",
+  "EditorAlias": "Umbraco.ColorPicker",
+  "DatabaseType": 1,
+  "Configuration": {
+    "useLabel": false,
+    "items": []
+  },
+  "Parent": "umb://data-type-container/5b2aefe8c33e4d86878e13b76a9638ed",
+  "Udi": "umb://data-type/0225af17b30249cb9176b9f35cab9c17",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type-container/5b2aefe8c33e4d86878e13b76a9638ed",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}
