@@ -1,0 +1,174 @@
+{
+  "Name": "Employee",
+  "Alias": "oEmployee",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "preventCleanup": false,
+    "keepAllVersionsNewerThanDays": null,
+    "keepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-user color-green",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/4ad196f7ae8d4f05b7f8b9dfe0c61551",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "950ada65-3cac-47b0-81cd-d225d1b68581",
+      "Name": "Main",
+      "SortOrder": 0,
+      "Type": 0,
+      "Alias": "main",
+      "PropertyTypes": [
+        {
+          "Key": "1e74a16d-8802-4dfb-a81f-8b3d1da9d4da",
+          "Alias": "oDescription",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Description",
+          "SortOrder": 3,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "2318a238-237b-4529-8678-f13be43cf86e",
+          "Alias": "oContacts",
+          "DataType": "umb://data-type/def9869cb94d403c878b2d0abb9ed5f3",
+          "Description": "",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Contacts",
+          "SortOrder": 5,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "57d03426-c7db-40e8-9932-5deb3b0c5bcb",
+          "Alias": "oImage",
+          "DataType": "umb://data-type/86ed17b3a9634a9d8d19c5ae0417f412",
+          "Description": "",
+          "Mandatory": true,
+          "MandatoryMessage": "",
+          "Name": "Image",
+          "SortOrder": 1,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "6977fcbf-9099-4324-bef4-7f7f3e1690ca",
+          "Alias": "oTitle",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "",
+          "Mandatory": true,
+          "MandatoryMessage": "",
+          "Name": "Title",
+          "SortOrder": 2,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "70576dbe-45c9-4a5e-bc5f-6590f97a6a82",
+          "Alias": "oName",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "",
+          "Mandatory": true,
+          "MandatoryMessage": "",
+          "Name": "Name",
+          "SortOrder": 0,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "b0076fee-e338-4341-b929-de95f65f6735",
+          "Alias": "oSkills",
+          "DataType": "umb://data-type/9d737188e66e4915ab9a5207015a0ea9",
+          "Description": "",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Skills",
+          "SortOrder": 4,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/e8e5b4dfedae4304a15a21cb0dff5991",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/86ed17b3a9634a9d8d19c5ae0417f412",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/9d737188e66e4915ab9a5207015a0ea9",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/def9869cb94d403c878b2d0abb9ed5f3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/4ad196f7ae8d4f05b7f8b9dfe0c61551",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "11.1.2"
+}

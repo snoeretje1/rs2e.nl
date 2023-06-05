@@ -1,0 +1,50 @@
+{
+  "Name": "Grid Layout Page",
+  "Alias": "oInformationPage",
+  "DefaultTemplate": "umb://template/de12a7faa6e8498284cabdcbdca58b52",
+  "AllowedTemplates": [
+    "umb://template/de12a7faa6e8498284cabdcbdca58b52"
+  ],
+  "HistoryCleanup": {
+    "preventCleanup": false,
+    "keepAllVersionsNewerThanDays": null,
+    "keepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-thumbnail-list color-green",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/09325f61d5c84ec29196054e13e421db",
+  "CompositionContentTypes": [
+    "umb://document-type/38fe851cedfb49d4bd471ebe1648517b"
+  ],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/2766275b4e0f41cdba39900083c0b053",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type-container/09325f61d5c84ec29196054e13e421db",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/38fe851cedfb49d4bd471ebe1648517b",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/de12a7faa6e8498284cabdcbdca58b52",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "11.1.2"
+}

@@ -1,0 +1,15 @@
+{
+  "Name": "About Generic Page - Start from separate page - Checkbox",
+  "Alias": "",
+  "EditorAlias": "Umbraco.TrueFalse",
+  "DatabaseType": 2,
+  "Configuration": {
+    "default": true,
+    "showLabels": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/bcf4f736eec345f1a78e1aa90b9b0434",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

@@ -1,0 +1,103 @@
+{
+  "Name": "test - grid - Grid layout",
+  "Alias": "",
+  "EditorAlias": "Umbraco.Grid",
+  "DatabaseType": 0,
+  "Configuration": {
+    "items": {
+      "styles": [
+        {
+          "label": "Set a background image",
+          "description": "Set a row background",
+          "key": "background-image",
+          "view": "imagepicker",
+          "modifier": "url({0})"
+        }
+      ],
+      "config": [
+        {
+          "label": "Class",
+          "description": "Set a css class",
+          "key": "class",
+          "view": "textstring"
+        }
+      ],
+      "columns": 12,
+      "templates": [
+        {
+          "name": "1 column layout",
+          "sections": [
+            {
+              "grid": 12
+            }
+          ]
+        },
+        {
+          "name": "2 column layout",
+          "sections": [
+            {
+              "grid": 4
+            },
+            {
+              "grid": 8
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        {
+          "label": "Headline",
+          "name": "Headline",
+          "areas": [
+            {
+              "grid": 12,
+              "editors": [
+                "headline"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Article",
+          "name": "Article",
+          "areas": [
+            {
+              "grid": 4
+            },
+            {
+              "grid": 8
+            }
+          ]
+        }
+      ]
+    },
+    "rte": {
+      "toolbar": [
+        "ace",
+        "styleselect",
+        "bold",
+        "italic",
+        "alignleft",
+        "aligncenter",
+        "alignright",
+        "bullist",
+        "numlist",
+        "outdent",
+        "indent",
+        "link",
+        "umbmediapicker",
+        "umbmacro",
+        "umbembeddialog"
+      ],
+      "stylesheets": [],
+      "maxImageSize": 500,
+      "mode": "classic"
+    },
+    "ignoreUserStartNodes": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/5b22012d001b492490086755ca490920",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

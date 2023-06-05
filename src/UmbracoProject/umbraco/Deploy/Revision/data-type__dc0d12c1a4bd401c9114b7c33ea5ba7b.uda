@@ -1,0 +1,15 @@
+{
+  "Name": "Full Bleed - Eye Dropper Color Picker",
+  "Alias": "",
+  "EditorAlias": "Umbraco.ColorPicker.EyeDropper",
+  "DatabaseType": 1,
+  "Configuration": {
+    "showAlpha": false,
+    "showPalette": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/dc0d12c1a4bd401c9114b7c33ea5ba7b",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

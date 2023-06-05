@@ -1,0 +1,28 @@
+{
+  "Name": "Number Of Slides - Dropdown",
+  "Alias": "",
+  "EditorAlias": "Umbraco.DropDown.Flexible",
+  "DatabaseType": 1,
+  "Configuration": {
+    "multiple": false,
+    "items": [
+      {
+        "id": 1,
+        "value": "2"
+      },
+      {
+        "id": 2,
+        "value": "3"
+      },
+      {
+        "id": 3,
+        "value": "4"
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/165782a30048438aa0927fd707a63c13",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

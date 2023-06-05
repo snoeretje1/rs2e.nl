@@ -1,0 +1,10 @@
+{
+  "Name": "oskiSite",
+  "Alias": "",
+  "ContainedObjectType": "30a2a501-1978-4ddb-a57b-f7efed43ba3c",
+  "Parent": null,
+  "Udi": "umb://data-type-container/5b2aefe8c33e4d86878e13b76a9638ed",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContainerArtifact",
+  "__version": "11.1.2"
+}

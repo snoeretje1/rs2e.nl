@@ -1,0 +1,157 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<OBlog>
+@using Oski.Core.Helpers
+@using Umbraco.Cms.Core.Services
+@inject IUserService UserService;
+@{
+    Layout = "main.cshtml";
+
+    var model = Model.Children.Cast<OBlogpost>();
+
+    var sortlink = !string.IsNullOrWhiteSpace(Context.Request.Query["sort"].ToString()) ? $"&sort={Context.Request.Query["sort"].ToString()}" : "";
+
+    sortlink += !string.IsNullOrWhiteSpace(Context.Request.Query["category"].ToString()) ? $"&category={Context.Request.Query["category"].ToString()}" : "";
+
+    sortlink += !string.IsNullOrWhiteSpace(Context.Request.Query["tag"].ToString()) ? $"&tag={Context.Request.Query["tag"].ToString()}" : "";
+
+    int take = Model.OTake;
+
+    model = Model.Children.Cast<OBlogpost>();
+
+    if (!string.IsNullOrWhiteSpace(Context.Request.Query["category"].ToString()))
+        model = model.Where((x) => x.OCategories.ToLower() == Context.Request.Query["category"].ToString());
+    if (!string.IsNullOrWhiteSpace(Context.Request.Query["tag"].ToString()))
+        model = model.Where((x) => x.OTags.Select((t) => t.ToLower()).ContainsAny(Context.Request.Query["tag"].ToString().ToLower().Split(",")));
+
+    var orderby = model.OrderByDescending(x => x.CreateDate);
+
+    double maxPage = Math.Ceiling((double)(model.Count()) / take);
+
+    if (int.TryParse(Context.Request.Query["page"], out int page))
+    {
+        if (page < 1 || page > maxPage)
+        {
+            Context.Response.Redirect(Model.Url());
+        }
+    }
+    else
+    {
+        page = 1;
+    }
+
+    var blogposts = orderby.Skip(take * (page - 1)).Take(take).ToList();
+    var configBlog  = Model.ConfigBlog;
+    var showAuthorAndReadTime = configBlog.FirstOrDefault(a => a == "Show author and read time") != null;
+    var showSideMenu = configBlog.FirstOrDefault(a => a == "Show side menu") != null;
+    var twoColorMap = showSideMenu? "two-Colom" : string.Empty;
+}
+<main class="inner-page">
+
+    @await Html.PartialAsync("oskiPartials/OFullScreenTopContainer")
+    <section class="content">
+        <div class="container">
+            <div class="content__inner @twoColorMap">
+                @if(showSideMenu){
+                    @await Html.PartialAsync("oskiPartials/oCategoriesMenuForNews")
+                }
+                @if (blogposts.Any())
+                {
+                    <div class="content-info">
+                        <div style="padding: 0 15px">
+                            @await Html.PartialAsync("oskiPartials/OBreadcrumb")
+                        </div>
+                        <div class="blog-container">
+                            @foreach (var blogPost in blogposts)
+                            {
+                                var imageUrl = blogPost.OPreviewImage?.Url() ?? string.Empty;
+                                var imageHeight = blogPost.OPreviewImage?.Value<int>("umbracoHeight");
+                                var imageWidth = blogPost.OPreviewImage?.Value<int>("umbracoWidth");
+                                var altText = Umbraco.Media(blogPost.OPreviewImage.Key)!
+                                    .Value("umbracoAltText")?.ToString();
+                                <div class="blogpost">
+                                    <a class="blogpost-link" href="@blogPost.Url()">
+                                        @if (!string.IsNullOrEmpty(imageUrl))
+                                        {
+                                            <div class="blogpost-image">
+                                                <img style="width: @(imageWidth > imageHeight ? "100%" : "")" src="@imageUrl" alt="@altText"/>
+                                            </div>
+                                        }
+                                        <div class="blogpost-info">
+
+                                            <div class="blogpost-title">@blogPost.OTitle</div>
+                                            <div class="blogpost-description">@blogPost.ODescription</div>
+                                            @if (blogPost.OTags.Any() && showSideMenu)
+                                            {
+                                                <div>
+                                                    <div class="blogpost-tags">
+                                                        @foreach (var tag in blogPost.OTags)
+                                                        {
+                                                            <span class="blogpost-tag">@tag</span>
+                                                        }
+                                                    </div>
+                                                </div>
+                                            }
+                                        </div>
+                                        @if (showAuthorAndReadTime)
+                                        {
+                                            var author = UserService.GetUserById(Convert.ToInt32(blogPost?.OAuthor));
+                                            var (_, authorAvatar) = Model.GetAuthorPageAndAvatar(author);
+                                            <div class="blogpost-footer">
+                                                <div><img src="@authorAvatar" alt="@author?.Name" /> @blogPost.WriterName() | @blogPost.CreateDate.ToString("MMMM d, yyyy")</div>
+                                                <div>
+                                                    @{
+                                                        var readtime = CalculationTime.CalculateReadTime(blogPost.OContent);
+                                                    }
+                                                    Read Time: <span class="blogpost-footer__time">@readtime min</span>
+                                                </div>
+                                            </div>
+                                        }
+                                    </a>
+                                </div>
+                            }
+
+                            @if ((blogposts.Count % 2) == 0)
+                            {
+                                <div class="blogpost"></div>
+                            }
+                        </div>
+                        <div class="pagination-container">
+                            <div class="pagination">
+                                <ul class="pagination__block">
+                                    <li class="pagination__item @((page - 1) < 1 ? "d-none" : "")">
+                                        <a href="@($"{Model.Url()}?page={page - 1}{sortlink}")">&#129152</a>
+                                    </li>
+                                    <li class="pagination__item @((page - 3) < 1 ? "d-none" : "")">
+                                        <a href="@($"{Model.Url()}?page={1}{sortlink}")">1</a>
+                                    </li>
+                                    <li class="pagination__item @((page - 4) < 1 ? "d-none" : "")">...</li>
+                                    <li class="pagination__item @((page - 2) < 1 ? "d-none" : "")">
+                                        <a href="@($"{Model.Url()}?page={page - 2}{sortlink}")">@(page - 2)</a>
+                                    </li>
+                                    <li class="pagination__item @((page - 1) < 1 ? "d-none" : "")">
+                                        <a href="@($"{Model.Url()}?page={page - 1}{sortlink}")">@(page - 1)</a>
+                                    </li>
+                                    <li class="pagination__item active">
+                                        <a class="active" href="@($"{Model.Url()}?page={page}{sortlink}")">@(page)</a>
+                                    </li>
+                                    <li class="pagination__item @((page + 1) > maxPage ? "d-none" : "")">
+                                        <a href="@($"{Model.Url()}?page={page + 1}{sortlink}")">@(page + 1)</a>
+                                    </li>
+                                    <li class="pagination__item @((page + 2) > maxPage ? "d-none" : "")">
+                                        <a href="@($"{Model.Url()}?page={page + 2}{sortlink}")">@(page + 2)</a>
+                                    </li>
+                                    <li class="pagination__item @((page + 4) > maxPage ? "d-none" : "")">...</li>
+                                    <li class="pagination__item @((page + 3) > maxPage ? "d-none" : "")">
+                                        <a href="@($"{Model.Url()}?page={maxPage}{sortlink}")">@maxPage</a>
+                                    </li>
+                                    <li class="pagination__item @((page + 1) > maxPage ? "d-none" : "")">
+                                        <a href="@($"{Model.Url()}?page={page + 1}{sortlink}")">&#129154</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+</main>

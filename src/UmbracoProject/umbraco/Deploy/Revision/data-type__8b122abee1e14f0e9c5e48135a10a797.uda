@@ -1,0 +1,40 @@
+{
+  "Name": "Full screen top container - OFontSize - Dropdown",
+  "Alias": "",
+  "EditorAlias": "Umbraco.DropDown.Flexible",
+  "DatabaseType": 1,
+  "Configuration": {
+    "multiple": false,
+    "items": [
+      {
+        "id": 1,
+        "value": "h1"
+      },
+      {
+        "id": 2,
+        "value": "h2"
+      },
+      {
+        "id": 3,
+        "value": "h3"
+      },
+      {
+        "id": 4,
+        "value": "h4"
+      },
+      {
+        "id": 5,
+        "value": "h5"
+      },
+      {
+        "id": 6,
+        "value": "h6"
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/8b122abee1e14f0e9c5e48135a10a797",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

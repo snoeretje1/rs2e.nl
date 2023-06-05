@@ -1,0 +1,92 @@
+{
+  "Name": "Block Plans cards container",
+  "Alias": "oBlockPlansCardsContainer",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "preventCleanup": false,
+    "keepAllVersionsNewerThanDays": null,
+    "keepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-playing-cards color-green",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/97a1fc5babe3448eab4f4a52d40499e9",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "bb004cfa-98a3-4ff5-a64b-836284d03dc4",
+      "Name": "Main",
+      "SortOrder": 0,
+      "Type": 0,
+      "Alias": "main",
+      "PropertyTypes": [
+        {
+          "Key": "8d74c0b5-0aae-40d3-a9ba-d0a40e8a2819",
+          "Alias": "oCards",
+          "DataType": "umb://data-type/49361f20d5aa4f0f86314768a8c2e379",
+          "Description": "",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Cards",
+          "SortOrder": 1,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "d18a820c-4be8-477c-b485-567e54eac596",
+          "Alias": "oTitle",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Title",
+          "SortOrder": 0,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/250b0930dcd24e75a527c2839466c223",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/49361f20d5aa4f0f86314768a8c2e379",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/97a1fc5babe3448eab4f4a52d40499e9",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "11.1.2"
+}

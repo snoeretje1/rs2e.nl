@@ -1,0 +1,24 @@
+{
+  "Name": "Search - Type value - Dropdown",
+  "Alias": "",
+  "EditorAlias": "Umbraco.DropDown.Flexible",
+  "DatabaseType": 1,
+  "Configuration": {
+    "multiple": false,
+    "items": [
+      {
+        "id": 1,
+        "value": "AllSite"
+      },
+      {
+        "id": 2,
+        "value": "InNews"
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/2239b165d96a47e0821bc0d007813af4",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

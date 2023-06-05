@@ -1,0 +1,15 @@
+{
+  "Name": "Contact container - reCAPTCHA - Checkbox",
+  "Alias": "",
+  "EditorAlias": "Umbraco.TrueFalse",
+  "DatabaseType": 2,
+  "Configuration": {
+    "default": false,
+    "showLabels": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/65bbd2380c574c3db3f4f9fc7e15ecf6",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

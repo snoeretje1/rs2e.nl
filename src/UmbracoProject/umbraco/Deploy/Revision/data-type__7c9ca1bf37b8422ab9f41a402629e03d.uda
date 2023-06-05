@@ -1,0 +1,15 @@
+{
+  "Name": "Blogpost - CropImage - Checkbox",
+  "Alias": "",
+  "EditorAlias": "Umbraco.TrueFalse",
+  "DatabaseType": 2,
+  "Configuration": {
+    "default": false,
+    "showLabels": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/7c9ca1bf37b8422ab9f41a402629e03d",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

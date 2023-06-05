@@ -1,0 +1,15 @@
+{
+  "Name": "Checkbox - default true",
+  "Alias": "",
+  "EditorAlias": "Umbraco.TrueFalse",
+  "DatabaseType": 2,
+  "Configuration": {
+    "default": true,
+    "showLabels": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/1ca3ae938d554c139ec97c489ae5b1ac",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

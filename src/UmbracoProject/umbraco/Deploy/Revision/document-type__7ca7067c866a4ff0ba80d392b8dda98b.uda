@@ -1,0 +1,110 @@
+{
+  "Name": "Categories menu for news",
+  "Alias": "oCategoriesMenuForNews",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "preventCleanup": false,
+    "keepAllVersionsNewerThanDays": null,
+    "keepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-item-arrangement color-green",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/88891c712b134e38a85071ddf91507ce",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "ab8ec3e3-3264-4ac8-bbff-beae5f9664ed",
+      "Name": "Content",
+      "SortOrder": 0,
+      "Type": 0,
+      "Alias": "content",
+      "PropertyTypes": [
+        {
+          "Key": "ea8b5274-af78-4799-aaca-16c75d192589",
+          "Alias": "oMenuTitle",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Menu title",
+          "SortOrder": 0,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "ee0eccfb-d200-46f4-b116-8c3b8b5dcde6",
+          "Alias": "Ocategories",
+          "DataType": "umb://data-type/61f3324e504c4f2ba4eb7ce5d320ae06",
+          "Description": "",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Categories menu items",
+          "SortOrder": 2,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "fc17016d-20fc-4ab1-85c9-0f7fef88d3a2",
+          "Alias": "oMenuSubtitle",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Menu subtitle",
+          "SortOrder": 1,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/7ca7067c866a4ff0ba80d392b8dda98b",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/61f3324e504c4f2ba4eb7ce5d320ae06",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/88891c712b134e38a85071ddf91507ce",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "11.1.2"
+}

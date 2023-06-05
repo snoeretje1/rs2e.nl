@@ -1,0 +1,179 @@
+{
+  "Name": "Footer container",
+  "Alias": "oFooterContainer",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "preventCleanup": false,
+    "keepAllVersionsNewerThanDays": null,
+    "keepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-navigation-bottom color-green",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": true,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/88891c712b134e38a85071ddf91507ce",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "01232543-0a8e-4459-ba60-a68555b1f786",
+      "Name": "Footer settings",
+      "SortOrder": 10,
+      "Type": 0,
+      "Alias": "footerSettings",
+      "PropertyTypes": [
+        {
+          "Key": "570db39a-f47d-4a2d-8427-9432ebd3a2ea",
+          "Alias": "privacyPolicy",
+          "DataType": "umb://data-type/7f706dd39cdf4b94b98cd764b310f16e",
+          "Description": "",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Privacy Policy",
+          "SortOrder": 6,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": true,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "93d74a0d-faa3-4ac7-8968-9c38de698b03",
+          "Alias": "oFooterNavigation",
+          "DataType": "umb://data-type/2658d42d37a044d1b2a84c134c326b69",
+          "Description": "",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Footer navigation",
+          "SortOrder": 1,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": true,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "9dbb7ab6-acf5-49a7-a2fe-d619f6a0541d",
+          "Alias": "oContacts",
+          "DataType": "umb://data-type/689ee4c4db404b22b5b78ef675cdc48d",
+          "Description": "",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Contacts",
+          "SortOrder": 5,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": true,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "a577a7f0-a243-4f81-b4e4-deb4553a21f0",
+          "Alias": "oServices",
+          "DataType": "umb://data-type/2658d42d37a044d1b2a84c134c326b69",
+          "Description": "",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Footer Services",
+          "SortOrder": 0,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": true,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "f252283b-478e-4a5f-94ab-85d6b4c56e3a",
+          "Alias": "oFooterLogo",
+          "DataType": "umb://data-type/135d60e064d949edab08893c9ba44ae5",
+          "Description": "",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Logo",
+          "SortOrder": 2,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "f2d2b9f0-f4cd-4a2c-855d-959c776a47bf",
+          "Alias": "oSocialLinks",
+          "DataType": "umb://data-type/8387d8a7704e4789aa7a4b330d22748e",
+          "Description": "",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Social Links",
+          "SortOrder": 4,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": true,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/3ffb68a82d6f4067bfbea51d0de2ed2a",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/135d60e064d949edab08893c9ba44ae5",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/2658d42d37a044d1b2a84c134c326b69",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/689ee4c4db404b22b5b78ef675cdc48d",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/7f706dd39cdf4b94b98cd764b310f16e",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/8387d8a7704e4789aa7a4b330d22748e",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/88891c712b134e38a85071ddf91507ce",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "11.1.2"
+}

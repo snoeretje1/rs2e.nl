@@ -1,0 +1,14 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem>
+@{
+    var parentNode = ViewBag.ParentPage;
+    var startNode = (IPublishedContent)ViewBag.CurrentPage;
+    var ancestorsToSkip = parentNode is OBlog ? 1 : 0;
+}
+<ul class="breadcrumb">
+
+    @foreach (var level in startNode.Ancestors().Where(x => !(x is BlockGridPage bgPage) || bgPage?.BlogGrid.Count > 0).Skip(ancestorsToSkip).Reverse())
+    {
+        <li><a href="@level.Url()">@level.Name</a></li>
+    }
+    <li>@startNode.Name</li>
+</ul>

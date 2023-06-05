@@ -1,0 +1,26 @@
+{
+  "Name": "Question  Answer Container - Items - Block List",
+  "Alias": "",
+  "EditorAlias": "Umbraco.BlockList",
+  "DatabaseType": 0,
+  "Configuration": {
+    "blocks": [
+      {
+        "contentElementTypeKey": "9fe31ff8-3e30-45a5-a7fd-a989a5a19482",
+        "view": "~/App_Plugins/BlockGrid/Views/BlockList/questionAndAnswer.html",
+        "stylesheet": "~/Oski-assets/css/style.css",
+        "editorSize": "medium",
+        "forceHideContentEditorInOverlay": false
+      }
+    ],
+    "validationLimit": {},
+    "useSingleBlockMode": false,
+    "useLiveEditing": false,
+    "useInlineEditingAsDefault": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/068b6b43d44e4d66a4040be46ad7b79c",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

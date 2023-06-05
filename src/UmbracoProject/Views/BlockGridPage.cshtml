@@ -1,0 +1,26 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.BlockGridPage>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+    Layout = "Main.cshtml";
+    ViewBag.CurrentPage = Model;
+    ViewBag.ParentPage = Model.Parent;
+    const string showAuthorAndReadTimeOption = "Show author and read time";
+    var parent = Model.Parent as OBlog;
+
+    if (parent != null)
+    {
+        var configBlog = parent.ConfigBlog;
+        ViewBag.ShowAuthorAndReadTime = configBlog.Any(option => option == showAuthorAndReadTimeOption);
+    }
+}
+<main class="inner-page">
+    @if (parent != null)
+    {
+        @await Html.PartialAsync("Partials/oskiPartials/OFullScreenTopContainer.cshtml", parent)
+    }
+    <div class="container">
+        <div class="case-info">
+            @await Html.GetBlockGridHtmlAsync(Model.BlogGrid)
+        </div>
+    </div>
+</main>

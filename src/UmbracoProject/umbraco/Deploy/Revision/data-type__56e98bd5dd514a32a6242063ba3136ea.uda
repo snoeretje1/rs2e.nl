@@ -1,0 +1,28 @@
+{
+  "Name": "Blog Page - Number of displayed news - Dropdown",
+  "Alias": "",
+  "EditorAlias": "Umbraco.DropDown.Flexible",
+  "DatabaseType": 1,
+  "Configuration": {
+    "multiple": false,
+    "items": [
+      {
+        "id": 1,
+        "value": "5"
+      },
+      {
+        "id": 2,
+        "value": "7"
+      },
+      {
+        "id": 3,
+        "value": "9"
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/56e98bd5dd514a32a6242063ba3136ea",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

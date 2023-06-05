@@ -1,0 +1,77 @@
+﻿@using System.Globalization;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<OHome>
+@{
+    var logoHeader = Model.OHeaderLogo != null ? Model.OHeaderLogo.Url() : string.Empty;
+    var langs =  UmbracoContext.Content.GetAtRoot(false);
+    var logoAltText = string.Empty;
+
+    if (Model.OFooterLogo != null)
+    {
+        logoAltText = Umbraco.Media(Model?.OFooterLogo?.Id).Value("umbracoAltText")?.ToString();
+    }
+}
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            @if (UmbracoContext.PublishedRequest.PublishedContent.ContentType.Alias.Equals("oHome"))
+            {
+                <a class="header__logo inactive" href="javascript:void(0)">
+                    <img src="@logoHeader" alt=" @(string.IsNullOrEmpty(logoAltText) ? "header logo" : logoAltText)">
+                </a>
+            }
+            else
+            {
+                <a class="header__logo" href="@Model.Url()">
+                    <img src="@logoHeader" alt="@(string.IsNullOrEmpty(logoAltText) ? "header logo" : logoAltText)">
+                </a>
+            }
+            <div class="header__navigation">
+                <nav>
+                    <ul class="header__menu">
+                        @foreach (var item in Model.OHeaderMenuItems)
+                        {
+                            var linkUrl = item?.OLink?.Url ?? "#";
+                            <li><a href="@linkUrl" class="header__menu-link @(ViewData["url"].ToString().Contains(linkUrl)? "header__menu-link--active":"")">@item.OCaption</a></li>
+                        }
+                    </ul>
+                </nav>
+                <div class="header__socials">
+                    @foreach (var link in Model.OHeaderMenuSocialLinks)
+                    {
+                        var linkUrl = link?.OUrl.FirstOrDefault()?.Url ?? "#";
+                        <a href="@linkUrl" target="@(link?.OUrl.First().Target)" class="header__social">
+                            @Html.Raw(await System.IO.File.ReadAllTextAsync("wwwroot" + link.OIcon.Url()))
+                        </a>
+                    }
+                </div>
+
+                @if (Model.OShowLanguagesSwitch)
+                {
+                    var currentPage = UmbracoContext.PublishedRequest.PublishedContent;
+                    <div class="header__languages">
+                        <button onclick="toggleLanguageDropdown()" class="language-btn">@(new CultureInfo(currentPage.GetCultureFromDomains()).ThreeLetterISOLanguageName.ToUpper())</button>
+                        <div id="languageDropdown" class="language-dropdown">
+                            @foreach (var (culture, infos) in currentPage.Cultures)
+                            {
+                                if (currentPage.GetCultureFromDomains().ToLower().Equals(culture))
+                                {
+                                    continue;
+                                }
+                                var cultureInfo = new CultureInfo(culture);
+                                <a href="@currentPage.Url(culture)">
+                                    @cultureInfo.ThreeLetterISOLanguageName.ToUpper()
+                                </a>
+                            }
+                        </div>
+                    </div>
+                }
+                
+                @if (Model.OContactPageLink != null)
+                {
+                    <a href="@Model.OContactPageLink.Url" class="header__button" data-link="@Model.OContactPageLink.Url">@Model.OContactPageLink.Name</a>
+                }
+            </div>
+        </div>
+        <button class="header__burger" type="button">@Model.OBurgerMenuCaption</button>
+    </div>
+</header>

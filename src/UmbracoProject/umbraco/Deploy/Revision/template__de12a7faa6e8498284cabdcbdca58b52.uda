@@ -1,0 +1,16 @@
+{
+  "Name": "Grid Page Layout",
+  "Alias": "InformationPage",
+  "File": "umb://template-file/InformationPage.cshtml",
+  "Master": null,
+  "Udi": "umb://template/de12a7faa6e8498284cabdcbdca58b52",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/InformationPage.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.TemplateArtifact",
+  "__version": "11.1.2"
+}

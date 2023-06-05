@@ -1,0 +1,17 @@
+{
+  "Name": "Call To Action - Action - Multi Url Picker",
+  "Alias": "",
+  "EditorAlias": "Umbraco.MultiUrlPicker",
+  "DatabaseType": 0,
+  "Configuration": {
+    "minNumber": 1,
+    "maxNumber": 1,
+    "hideAnchor": false,
+    "ignoreUserStartNodes": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/cfc058bf104641f38bc123d5e90e1de2",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

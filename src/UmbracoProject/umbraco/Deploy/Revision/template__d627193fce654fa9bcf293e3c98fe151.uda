@@ -1,0 +1,16 @@
+{
+  "Name": "Plans",
+  "Alias": "Plans",
+  "File": "umb://template-file/Plans.cshtml",
+  "Master": null,
+  "Udi": "umb://template/d627193fce654fa9bcf293e3c98fe151",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/Plans.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.TemplateArtifact",
+  "__version": "11.1.2"
+}

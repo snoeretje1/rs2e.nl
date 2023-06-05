@@ -1,0 +1,31 @@
+{
+  "Name": "oSidebarList",
+  "Alias": "",
+  "EditorAlias": "Umbraco.NestedContent",
+  "DatabaseType": 0,
+  "Configuration": {
+    "contentTypes": [
+      {
+        "ncAlias": "oSidebar",
+        "ncTabAlias": "Main",
+        "nameTemplate": "{{oTitle}}"
+      }
+    ],
+    "maxItems": 1,
+    "confirmDeletes": true,
+    "showIcons": true,
+    "expandsOnLoad": true,
+    "hideLabel": false
+  },
+  "Parent": "umb://data-type-container/5b2aefe8c33e4d86878e13b76a9638ed",
+  "Udi": "umb://data-type/601f82a7f43145af884638df266822cf",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type-container/5b2aefe8c33e4d86878e13b76a9638ed",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

@@ -1,0 +1,24 @@
+{
+  "Name": "Plans Cards container - Items - Nested Content",
+  "Alias": "",
+  "EditorAlias": "Umbraco.NestedContent",
+  "DatabaseType": 0,
+  "Configuration": {
+    "contentTypes": [
+      {
+        "ncAlias": "plansCard",
+        "ncTabAlias": "Main",
+        "nameTemplate": "{{oTitle}}"
+      }
+    ],
+    "confirmDeletes": true,
+    "showIcons": true,
+    "expandsOnLoad": true,
+    "hideLabel": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/bc051b7f23874b0aa81ac19a69c05994",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

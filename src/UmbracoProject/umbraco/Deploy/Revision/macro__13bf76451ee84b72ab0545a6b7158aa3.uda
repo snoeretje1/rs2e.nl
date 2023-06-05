@@ -1,0 +1,50 @@
+{
+  "Name": "Menu for all blogs",
+  "Alias": "MenuForAllBlogs",
+  "MacroSource": "~/Views/MacroPartials/Menu for all blogs.cshtml",
+  "UseInEditor": true,
+  "CacheDuration": 0,
+  "CacheByPage": false,
+  "CacheByMember": false,
+  "DontRender": false,
+  "Properties": [
+    {
+      "Key": "9b47bc8b-25ed-4ff4-b316-0c6d6d4630ad",
+      "Alias": "oCurrentUrl",
+      "Name": "What is current Url",
+      "SortOrder": 0,
+      "EditorAlias": "Umbraco.TextBox"
+    },
+    {
+      "Key": "afab6212-baad-4964-a18c-a61d02c455e9",
+      "Alias": "oParentPage",
+      "Name": "Where to get blog posts from",
+      "SortOrder": 1,
+      "EditorAlias": "Umbraco.ContentPicker"
+    },
+    {
+      "Key": "e9f5194a-0288-4df8-9892-10fdb147b616",
+      "Alias": "oDisplayCreationDate",
+      "Name": "Display creation date",
+      "SortOrder": 2,
+      "EditorAlias": "Umbraco.TrueFalse"
+    },
+    {
+      "Key": "f8516230-3ec7-403a-bd0c-49c728668836",
+      "Alias": "oCategories",
+      "Name": "Categories",
+      "SortOrder": 3,
+      "EditorAlias": "Umbraco.TextBox"
+    }
+  ],
+  "Udi": "umb://macro/13bf76451ee84b72ab0545a6b7158aa3",
+  "Dependencies": [
+    {
+      "Udi": "umb://partial-view-macro/Menu%20for%20all%20blogs.cshtml",
+      "Ordering": true,
+      "Mode": 1
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.MacroArtifact",
+  "__version": "11.1.2"
+}

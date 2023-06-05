@@ -1,0 +1,115 @@
+{
+  "Name": "Contact location and map",
+  "Alias": "oContactLocation",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "preventCleanup": false,
+    "keepAllVersionsNewerThanDays": null,
+    "keepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-map-location color-green",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/2e94eb86442345b9bd6492446adfdce5",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "986d053d-b3e3-4dbe-b79a-904934f3f613",
+      "Name": "Main",
+      "SortOrder": 0,
+      "Type": 0,
+      "Alias": "main",
+      "PropertyTypes": [
+        {
+          "Key": "03b106eb-5c18-448c-84e8-a2a4a534f959",
+          "Alias": "oGoogleMapLocation",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Description": "This is the HTML code of your location. If you want to add this, find your place in Google Maps, then сlick the \"Share\" button and click the \"Embed map\" tap.\n\nThen you will se HTML code. This code you must copypaste in this input are",
+          "Mandatory": true,
+          "MandatoryMessage": "",
+          "Name": "Google map location",
+          "SortOrder": 3,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "0eb78cf0-c904-4503-ba67-8935d48038a6",
+          "Alias": "oContacts",
+          "DataType": "umb://data-type/689ee4c4db404b22b5b78ef675cdc48d",
+          "Description": "",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Contacts",
+          "SortOrder": 0,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "ad2d5e25-e539-49c6-9eeb-99b39d4a6a7a",
+          "Alias": "oSocialLinks",
+          "DataType": "umb://data-type/8387d8a7704e4789aa7a4b330d22748e",
+          "Description": "",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Social Links",
+          "SortOrder": 1,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/dcda0a91133847b0a90432d8be8c9ae9",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/689ee4c4db404b22b5b78ef675cdc48d",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/8387d8a7704e4789aa7a4b330d22748e",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/2e94eb86442345b9bd6492446adfdce5",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "11.1.2"
+}

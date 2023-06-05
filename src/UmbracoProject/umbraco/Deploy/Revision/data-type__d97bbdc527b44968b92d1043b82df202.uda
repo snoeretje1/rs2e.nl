@@ -1,0 +1,14 @@
+{
+  "Name": "Search container - Number of search results - Numeric",
+  "Alias": "",
+  "EditorAlias": "Umbraco.Integer",
+  "DatabaseType": 2,
+  "Configuration": {
+    "max": 10
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/d97bbdc527b44968b92d1043b82df202",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

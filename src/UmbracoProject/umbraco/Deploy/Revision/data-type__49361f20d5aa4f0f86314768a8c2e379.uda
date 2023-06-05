@@ -1,0 +1,25 @@
+{
+  "Name": "Plans Cards container - Items - Block List",
+  "Alias": "",
+  "EditorAlias": "Umbraco.BlockList",
+  "DatabaseType": 0,
+  "Configuration": {
+    "blocks": [
+      {
+        "contentElementTypeKey": "cda689a8-8a77-45ed-bf05-d2493e6d1a9b",
+        "label": "",
+        "editorSize": "medium",
+        "forceHideContentEditorInOverlay": false
+      }
+    ],
+    "validationLimit": {},
+    "useSingleBlockMode": false,
+    "useLiveEditing": false,
+    "useInlineEditingAsDefault": true
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/49361f20d5aa4f0f86314768a8c2e379",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

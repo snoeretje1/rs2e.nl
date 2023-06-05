@@ -1,0 +1,26 @@
+{
+  "Name": "Call To Action - Action - Single Sotion Link Picker",
+  "Alias": "",
+  "EditorAlias": "Umbraco.NestedContent",
+  "DatabaseType": 0,
+  "Configuration": {
+    "contentTypes": [
+      {
+        "ncAlias": "socialLink",
+        "ncTabAlias": "Main",
+        "nameTemplate": ""
+      }
+    ],
+    "minItems": 1,
+    "maxItems": 1,
+    "confirmDeletes": true,
+    "showIcons": false,
+    "expandsOnLoad": true,
+    "hideLabel": true
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/d1fe84e4e6d842bdb5f1461c603adadc",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

@@ -1,0 +1,24 @@
+{
+  "Name": "Slide - Image type - Dropdown",
+  "Alias": "",
+  "EditorAlias": "Umbraco.DropDown.Flexible",
+  "DatabaseType": 1,
+  "Configuration": {
+    "multiple": false,
+    "items": [
+      {
+        "id": 1,
+        "value": "circle"
+      },
+      {
+        "id": 2,
+        "value": "rectangle"
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/9237dabb5d8f4640ba212210fc51d877",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

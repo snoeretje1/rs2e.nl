@@ -1,0 +1,14 @@
+{
+  "Name": "Contact container - oEmail - Email address",
+  "Alias": "",
+  "EditorAlias": "Umbraco.EmailAddress",
+  "DatabaseType": 1,
+  "Configuration": {
+    "IsRequired": true
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/41180a40af4043aa9df81947731db049",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

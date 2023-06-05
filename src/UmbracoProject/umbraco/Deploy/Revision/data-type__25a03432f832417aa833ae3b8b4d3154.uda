@@ -1,0 +1,494 @@
+{
+  "Name": "Block grid page - Block Grid",
+  "Alias": "",
+  "EditorAlias": "Umbraco.BlockGrid",
+  "DatabaseType": 0,
+  "Configuration": {
+    "blocks": [
+      {
+        "columnSpanOptions": [
+          {
+            "columnSpan": 12
+          }
+        ],
+        "rowMinSpan": 1,
+        "rowMaxSpan": 1,
+        "allowAtRoot": true,
+        "allowInAreas": true,
+        "areas": [],
+        "contentElementTypeKey": "52f06e80-2ab7-4b8d-b04e-839a2e1ef950",
+        "view": "~/App_Plugins/BlockGrid/RichTextEditor/richTextEditor.html",
+        "stylesheet": "~/Oski-assets/css/style.css",
+        "label": "",
+        "editorSize": "medium",
+        "inlineEditing": false,
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "columnSpanOptions": [
+          {
+            "columnSpan": 6
+          },
+          {
+            "columnSpan": 9
+          },
+          {
+            "columnSpan": 3
+          },
+          {
+            "columnSpan": 12
+          }
+        ],
+        "rowMinSpan": 3,
+        "rowMaxSpan": 8,
+        "allowAtRoot": true,
+        "allowInAreas": true,
+        "areas": [],
+        "contentElementTypeKey": "37fcf2c4-3ce3-49e7-bf62-3127e882a6a8",
+        "view": "~/App_Plugins/BlockGrid/ImageBlock/image.html",
+        "stylesheet": "~/App_Plugins/BlockGrid/ImageBlock/imageBlock.css",
+        "label": "Image",
+        "editorSize": "medium",
+        "inlineEditing": false,
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "columnSpanOptions": [
+          {
+            "columnSpan": 12
+          }
+        ],
+        "rowMinSpan": 1,
+        "rowMaxSpan": 1,
+        "allowAtRoot": true,
+        "allowInAreas": true,
+        "areas": [],
+        "contentElementTypeKey": "eca0c8e5-a919-47d5-8efe-e6a6b38d3a11",
+        "view": "~/App_Plugins/BlockGrid/FullScreenTopContainer/fullScreenTopContainer.html",
+        "stylesheet": "~/App_Plugins/BlockGrid/FullScreenTopContainer/fullScreenTopContainer.css",
+        "label": "",
+        "editorSize": "medium",
+        "inlineEditing": false,
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "columnSpanOptions": [],
+        "rowMinSpan": 1,
+        "rowMaxSpan": 1,
+        "allowAtRoot": true,
+        "allowInAreas": false,
+        "areas": [
+          {
+            "key": "8abbc0da-e002-4128-9024-bf3c08169baa",
+            "alias": "Bleed",
+            "columnSpan": 12,
+            "rowSpan": 1,
+            "minAllowed": 0,
+            "specifiedAllowance": []
+          }
+        ],
+        "contentElementTypeKey": "fe21ce6e-f591-4c6a-a0aa-3e396f41fc79",
+        "view": "~/App_Plugins/BlockGrid/VIews/oFullBleed.html",
+        "label": "",
+        "editorSize": "medium",
+        "inlineEditing": false,
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "columnSpanOptions": [],
+        "rowMinSpan": 1,
+        "rowMaxSpan": 1,
+        "allowAtRoot": true,
+        "allowInAreas": true,
+        "areas": [
+          {
+            "key": "d93f7bfe-5d04-4141-8bd7-8e18aef5b761",
+            "alias": "Header",
+            "columnSpan": 6,
+            "rowSpan": 1,
+            "minAllowed": 0,
+            "specifiedAllowance": [
+              {
+                "elementTypeKey": "52f06e80-2ab7-4b8d-b04e-839a2e1ef950"
+              }
+            ]
+          },
+          {
+            "key": "43bcacdb-468f-4207-8873-6d1f6d3f231e",
+            "alias": "Image",
+            "columnSpan": 6,
+            "rowSpan": 3,
+            "minAllowed": 0,
+            "specifiedAllowance": [
+              {
+                "elementTypeKey": "1d5e2202-ad8a-4b49-85ef-775e26d59309"
+              },
+              {
+                "elementTypeKey": "cd50b99e-c431-4ae6-ba3f-3b8cd9d90ec9"
+              }
+            ]
+          },
+          {
+            "key": "36016258-f9c2-472d-bbf0-b679798be928",
+            "alias": "Text",
+            "columnSpan": 6,
+            "rowSpan": 1,
+            "minAllowed": 0,
+            "specifiedAllowance": [
+              {
+                "elementTypeKey": "52f06e80-2ab7-4b8d-b04e-839a2e1ef950"
+              }
+            ]
+          }
+        ],
+        "contentElementTypeKey": "271c610f-24ef-439a-ac10-3f90997b047f",
+        "view": "~/App_Plugins/BlockGrid/VIews/combinedContent.html",
+        "stylesheet": "~/Oski-assets/css/style.css",
+        "label": "Image on right with text",
+        "editorSize": "medium",
+        "inlineEditing": false,
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "columnSpanOptions": [
+          {
+            "columnSpan": 12
+          }
+        ],
+        "rowMinSpan": 1,
+        "rowMaxSpan": 1,
+        "allowAtRoot": true,
+        "allowInAreas": true,
+        "areas": [],
+        "contentElementTypeKey": "1d5e2202-ad8a-4b49-85ef-775e26d59309",
+        "view": "~/App_Plugins/BlockGrid/ImageBlock/image.html",
+        "stylesheet": "~/App_Plugins/BlockGrid/ImageBlock/imageBlock.css",
+        "label": "",
+        "editorSize": "medium",
+        "inlineEditing": false,
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "columnSpanOptions": [],
+        "rowMinSpan": 1,
+        "rowMaxSpan": 1,
+        "allowAtRoot": true,
+        "allowInAreas": true,
+        "areas": [],
+        "contentElementTypeKey": "7ab2b5d6-c1a2-4ff1-af4a-bc534b67560c",
+        "view": "~/App_Plugins/BlockGrid/VIews/blockTitle.html",
+        "stylesheet": "~/Oski-assets/css/style.css",
+        "label": "",
+        "editorSize": "medium",
+        "inlineEditing": false,
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "columnSpanOptions": [],
+        "rowMinSpan": 1,
+        "rowMaxSpan": 1,
+        "allowAtRoot": true,
+        "allowInAreas": true,
+        "areas": [
+          {
+            "key": "83348afc-548a-4803-86b5-c1ff81b0267e",
+            "alias": "Image",
+            "columnSpan": 6,
+            "rowSpan": 3,
+            "minAllowed": 0,
+            "maxAllowed": 1,
+            "specifiedAllowance": [
+              {
+                "elementTypeKey": "1d5e2202-ad8a-4b49-85ef-775e26d59309",
+                "maxAllowed": 1
+              },
+              {
+                "elementTypeKey": "cd50b99e-c431-4ae6-ba3f-3b8cd9d90ec9"
+              }
+            ]
+          },
+          {
+            "key": "3239e301-2d6d-462d-9ddd-eb8cde2997e3",
+            "alias": "Header",
+            "columnSpan": 6,
+            "rowSpan": 1,
+            "minAllowed": 0,
+            "specifiedAllowance": [
+              {
+                "elementTypeKey": "52f06e80-2ab7-4b8d-b04e-839a2e1ef950"
+              }
+            ]
+          },
+          {
+            "key": "c2aa8d10-7d05-4d64-a074-c9fae9d68411",
+            "alias": "Text",
+            "columnSpan": 6,
+            "rowSpan": 1,
+            "minAllowed": 0,
+            "specifiedAllowance": [
+              {
+                "elementTypeKey": "52f06e80-2ab7-4b8d-b04e-839a2e1ef950"
+              }
+            ]
+          }
+        ],
+        "contentElementTypeKey": "0b2a727e-74e1-4492-932c-6dc7e8c96516",
+        "stylesheet": "~/Oski-assets/css/style.css",
+        "label": "",
+        "editorSize": "medium",
+        "inlineEditing": false,
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "columnSpanOptions": [],
+        "rowMinSpan": 1,
+        "rowMaxSpan": 1,
+        "allowAtRoot": true,
+        "allowInAreas": true,
+        "areas": [],
+        "contentElementTypeKey": "f7b031ef-83e5-401e-9387-0c63682d0dbd",
+        "view": "~/App_Plugins/BlockGrid/VIews/contactContainer.html",
+        "stylesheet": "~/Oski-assets/css/style.css",
+        "label": "",
+        "editorSize": "medium",
+        "inlineEditing": false,
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "columnSpanOptions": [],
+        "rowMinSpan": 1,
+        "rowMaxSpan": 1,
+        "allowAtRoot": true,
+        "allowInAreas": true,
+        "areas": [],
+        "contentElementTypeKey": "8c71482a-fa11-4e23-bb59-e6dda3b08727",
+        "view": "~/App_Plugins/BlockGrid/VIews/authorPublications.html",
+        "stylesheet": "~/Oski-assets/css/style.css",
+        "label": "",
+        "editorSize": "medium",
+        "inlineEditing": false,
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "columnSpanOptions": [],
+        "rowMinSpan": 1,
+        "rowMaxSpan": 1,
+        "allowAtRoot": true,
+        "allowInAreas": true,
+        "areas": [],
+        "contentElementTypeKey": "dd78370a-8d68-4c7b-86c1-c29595e86b3d",
+        "label": "",
+        "editorSize": "medium",
+        "inlineEditing": false,
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "columnSpanOptions": [],
+        "rowMinSpan": 1,
+        "rowMaxSpan": 1,
+        "allowAtRoot": true,
+        "allowInAreas": true,
+        "areas": [],
+        "contentElementTypeKey": "9b652cb4-af47-4110-a41f-36af3c80a78b",
+        "label": "",
+        "editorSize": "medium",
+        "inlineEditing": false,
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "columnSpanOptions": [],
+        "rowMinSpan": 1,
+        "rowMaxSpan": 1,
+        "allowAtRoot": true,
+        "allowInAreas": true,
+        "areas": [],
+        "contentElementTypeKey": "b33915c4-3e2b-40d4-b30c-c9fa9b13a2dd",
+        "label": "",
+        "editorSize": "medium",
+        "inlineEditing": false,
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "columnSpanOptions": [],
+        "rowMinSpan": 1,
+        "rowMaxSpan": 1,
+        "allowAtRoot": true,
+        "allowInAreas": true,
+        "areas": [],
+        "contentElementTypeKey": "4e7dda8e-f039-4db3-bc8e-58c7f95323cb",
+        "view": "~/App_Plugins/BlockGrid/VIews/callToAction.html",
+        "stylesheet": "~/Oski-assets/css/style.css",
+        "label": "",
+        "editorSize": "medium",
+        "inlineEditing": false,
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "columnSpanOptions": [],
+        "rowMinSpan": 1,
+        "rowMaxSpan": 1,
+        "allowAtRoot": true,
+        "allowInAreas": true,
+        "areas": [
+          {
+            "key": "7c23f0b2-f57b-4c49-954e-9dcf5f0a7783",
+            "alias": "Left",
+            "columnSpan": 6,
+            "rowSpan": 1,
+            "minAllowed": 0,
+            "specifiedAllowance": []
+          },
+          {
+            "key": "bd6b0661-e2b9-4d28-81b4-6e3b8afddb48",
+            "alias": "Right",
+            "columnSpan": 6,
+            "rowSpan": 1,
+            "minAllowed": 0,
+            "specifiedAllowance": []
+          }
+        ],
+        "contentElementTypeKey": "169a8e8d-698e-4c9a-b0cd-d94185ff4281",
+        "label": "",
+        "editorSize": "medium",
+        "inlineEditing": false,
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "columnSpanOptions": [],
+        "rowMinSpan": 1,
+        "rowMaxSpan": 1,
+        "allowAtRoot": true,
+        "allowInAreas": true,
+        "areas": [
+          {
+            "key": "c8dc1d44-a958-4eca-b21d-2b7def0ef44c",
+            "alias": "Left",
+            "columnSpan": 5,
+            "rowSpan": 1,
+            "minAllowed": 0,
+            "specifiedAllowance": []
+          },
+          {
+            "key": "d27af34c-63ab-4365-89c9-839169dc8b7f",
+            "alias": "Right",
+            "columnSpan": 7,
+            "rowSpan": 1,
+            "minAllowed": 0,
+            "specifiedAllowance": []
+          }
+        ],
+        "contentElementTypeKey": "0815d657-e59a-480a-bad9-48d8e9477157",
+        "label": "",
+        "editorSize": "medium",
+        "inlineEditing": false,
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "columnSpanOptions": [],
+        "rowMinSpan": 1,
+        "rowMaxSpan": 1,
+        "allowAtRoot": true,
+        "allowInAreas": true,
+        "areas": [],
+        "contentElementTypeKey": "ebc9ec4c-4ca1-4f21-b5b2-01b716b683c4",
+        "view": "~/App_Plugins/BlockGrid/VIews/quote.html",
+        "stylesheet": "~/Oski-assets/css/style.css",
+        "label": "",
+        "editorSize": "medium",
+        "inlineEditing": false,
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "columnSpanOptions": [],
+        "rowMinSpan": 1,
+        "rowMaxSpan": 1,
+        "allowAtRoot": true,
+        "allowInAreas": true,
+        "areas": [],
+        "contentElementTypeKey": "e5900889-d823-4510-8ccb-f5347d66544f",
+        "view": "~/App_Plugins/BlockGrid/VIews/quickContactContainer.html",
+        "stylesheet": "~/Oski-assets/css/style.css",
+        "label": "",
+        "editorSize": "medium",
+        "inlineEditing": false,
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "columnSpanOptions": [],
+        "rowMinSpan": 1,
+        "rowMaxSpan": 1,
+        "allowAtRoot": true,
+        "allowInAreas": true,
+        "areas": [],
+        "contentElementTypeKey": "cff7a9ef-431c-4465-a4d3-88917093131e",
+        "view": "~/App_Plugins/BlockGrid/VIews/margins.html",
+        "label": "",
+        "editorSize": "medium",
+        "inlineEditing": false,
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "columnSpanOptions": [],
+        "rowMinSpan": 1,
+        "rowMaxSpan": 1,
+        "allowAtRoot": true,
+        "allowInAreas": true,
+        "areas": [],
+        "contentElementTypeKey": "186773fc-969b-4cd5-9c2d-7dbffc6812a4",
+        "label": "",
+        "editorSize": "medium",
+        "inlineEditing": false,
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "columnSpanOptions": [],
+        "rowMinSpan": 1,
+        "rowMaxSpan": 1,
+        "allowAtRoot": true,
+        "allowInAreas": true,
+        "areas": [],
+        "contentElementTypeKey": "250b0930-dcd2-4e75-a527-c2839466c223",
+        "label": "",
+        "editorSize": "medium",
+        "inlineEditing": false,
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "columnSpanOptions": [],
+        "rowMinSpan": 1,
+        "rowMaxSpan": 1,
+        "allowAtRoot": true,
+        "allowInAreas": true,
+        "areas": [],
+        "contentElementTypeKey": "5e965f5b-1aa0-4d5f-b5bf-b29c53b1357f",
+        "label": "",
+        "editorSize": "medium",
+        "inlineEditing": false,
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "columnSpanOptions": [],
+        "rowMinSpan": 1,
+        "rowMaxSpan": 1,
+        "allowAtRoot": true,
+        "allowInAreas": true,
+        "areas": [],
+        "contentElementTypeKey": "cd50b99e-c431-4ae6-ba3f-3b8cd9d90ec9",
+        "view": "~/App_Plugins/BlockGrid/EmbeddedVideo/embeddedVideo.html",
+        "stylesheet": "~/App_Plugins/BlockGrid/EmbeddedVideo/embeddedVideo.css",
+        "label": "",
+        "editorSize": "medium",
+        "inlineEditing": false,
+        "forceHideContentEditorInOverlay": false
+      }
+    ],
+    "blockGroups": [],
+    "validationLimit": {},
+    "useLiveEditing": true
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/25a03432f832417aa833ae3b8b4d3154",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

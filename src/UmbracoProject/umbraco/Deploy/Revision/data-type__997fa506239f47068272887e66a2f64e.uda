@@ -1,0 +1,27 @@
+{
+  "Name": "Contact location and map - Choose an arrangement of elements - Radio button list",
+  "Alias": "",
+  "EditorAlias": "Umbraco.RadioButtonList",
+  "DatabaseType": 1,
+  "Configuration": {
+    "items": [
+      {
+        "id": 1,
+        "value": "Half"
+      },
+      {
+        "id": 2,
+        "value": "Half with left shift"
+      },
+      {
+        "id": 3,
+        "value": "Half with right shift"
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/997fa506239f47068272887e66a2f64e",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

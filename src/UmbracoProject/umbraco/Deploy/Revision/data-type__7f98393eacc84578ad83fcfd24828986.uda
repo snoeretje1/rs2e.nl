@@ -1,0 +1,24 @@
+{
+  "Name": "Image and info container - ImagePosition - Dropdown",
+  "Alias": "",
+  "EditorAlias": "Umbraco.DropDown.Flexible",
+  "DatabaseType": 1,
+  "Configuration": {
+    "multiple": false,
+    "items": [
+      {
+        "id": 1,
+        "value": "Left"
+      },
+      {
+        "id": 2,
+        "value": "Right"
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/7f98393eacc84578ad83fcfd24828986",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

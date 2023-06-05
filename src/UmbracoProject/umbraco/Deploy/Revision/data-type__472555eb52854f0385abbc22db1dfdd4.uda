@@ -1,0 +1,39 @@
+{
+  "Name": "Social media links - Links - Nested Content",
+  "Alias": "",
+  "EditorAlias": "Umbraco.NestedContent",
+  "DatabaseType": 0,
+  "Configuration": {
+    "contentTypes": [
+      {
+        "ncAlias": "socialLink",
+        "ncTabAlias": "Main",
+        "nameTemplate": ""
+      },
+      {
+        "ncAlias": "link",
+        "ncTabAlias": "Link",
+        "nameTemplate": ""
+      },
+      {
+        "ncAlias": "websiteLink",
+        "ncTabAlias": "Main",
+        "nameTemplate": ""
+      },
+      {
+        "ncAlias": "email",
+        "ncTabAlias": "Main",
+        "nameTemplate": ""
+      }
+    ],
+    "confirmDeletes": true,
+    "showIcons": true,
+    "expandsOnLoad": true,
+    "hideLabel": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/472555eb52854f0385abbc22db1dfdd4",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

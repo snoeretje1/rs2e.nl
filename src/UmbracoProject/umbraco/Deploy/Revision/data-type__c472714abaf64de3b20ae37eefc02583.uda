@@ -1,0 +1,44 @@
+{
+  "Name": "XmlSiteMapSettings - Search Engine Change Frequency - Dropdown",
+  "Alias": "",
+  "EditorAlias": "Umbraco.DropDown.Flexible",
+  "DatabaseType": 1,
+  "Configuration": {
+    "multiple": false,
+    "items": [
+      {
+        "id": 1,
+        "value": "always"
+      },
+      {
+        "id": 2,
+        "value": "hourly"
+      },
+      {
+        "id": 3,
+        "value": "daily"
+      },
+      {
+        "id": 4,
+        "value": "weekly"
+      },
+      {
+        "id": 5,
+        "value": "monthly"
+      },
+      {
+        "id": 6,
+        "value": "yearly"
+      },
+      {
+        "id": 7,
+        "value": "never"
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/c472714abaf64de3b20ae37eefc02583",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

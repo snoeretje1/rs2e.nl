@@ -1,0 +1,26 @@
+{
+  "Name": "Case page - Top Baner - Nested Content",
+  "Alias": "",
+  "EditorAlias": "Umbraco.NestedContent",
+  "DatabaseType": 0,
+  "Configuration": {
+    "contentTypes": [
+      {
+        "ncAlias": "oFullScreenTopContainer",
+        "ncTabAlias": "Main",
+        "nameTemplate": ""
+      }
+    ],
+    "minItems": 1,
+    "maxItems": 1,
+    "confirmDeletes": true,
+    "showIcons": true,
+    "expandsOnLoad": true,
+    "hideLabel": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/04239c93cb5d409f8001204a82167903",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

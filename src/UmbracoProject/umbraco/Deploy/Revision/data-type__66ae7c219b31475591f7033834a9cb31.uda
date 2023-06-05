@@ -1,0 +1,36 @@
+{
+  "Name": "Full screen top container - Image Color - Color Picker",
+  "Alias": "",
+  "EditorAlias": "Umbraco.ColorPicker",
+  "DatabaseType": 1,
+  "Configuration": {
+    "useLabel": false,
+    "items": [
+      {
+        "id": 3,
+        "value": "{\"value\":\"ff0000\",\"label\":\"ff0000\"}"
+      },
+      {
+        "id": 1,
+        "value": "{\"value\":\"58efff\",\"label\":\"58efff\"}"
+      },
+      {
+        "id": 2,
+        "value": "{\"value\":\"f26eff\",\"label\":\"f26eff\"}"
+      },
+      {
+        "id": 4,
+        "value": "{\"value\":\"000000\",\"label\":\"000000\"}"
+      },
+      {
+        "id": 5,
+        "value": "{\"value\":\"ffffff\",\"label\":\"ffffff\"}"
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/66ae7c219b31475591f7033834a9cb31",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

@@ -1,0 +1,16 @@
+{
+  "Name": "Page Content Layout",
+  "Alias": "PageContentLayout",
+  "File": "umb://template-file/PageContentLayout.cshtml",
+  "Master": null,
+  "Udi": "umb://template/f27cd58f758243139a9da4fcc8445c9d",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/PageContentLayout.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.TemplateArtifact",
+  "__version": "11.1.2"
+}

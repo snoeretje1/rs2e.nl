@@ -1,0 +1,17 @@
+{
+  "Name": "umb://dictionary-item/722fa396aff94cfba96df0819f876768",
+  "Alias": "",
+  "ItemKey": "ContactForm.ErrorRecaptcha",
+  "ParentId": null,
+  "Translations": [
+    {
+      "Key": "722fa396-aff9-4cfb-a96d-f0819f876768",
+      "Value": "Please check the box below to proceed.",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Udi": "umb://dictionary-item/722fa396aff94cfba96df0819f876768",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DictionaryItemArtifact",
+  "__version": "11.1.2"
+}

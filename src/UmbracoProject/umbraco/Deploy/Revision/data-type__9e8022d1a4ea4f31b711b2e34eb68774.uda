@@ -1,0 +1,24 @@
+{
+  "Name": "CallToAction - BackgroundStyle - Dropdown",
+  "Alias": "",
+  "EditorAlias": "Umbraco.DropDown.Flexible",
+  "DatabaseType": 1,
+  "Configuration": {
+    "multiple": false,
+    "items": [
+      {
+        "id": 1,
+        "value": "white"
+      },
+      {
+        "id": 2,
+        "value": "dark"
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/9e8022d1a4ea4f31b711b2e34eb68774",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

@@ -1,0 +1,56 @@
+{
+  "Name": "Contact location and map - Number of columns for the map - Dropdown",
+  "Alias": "",
+  "EditorAlias": "Umbraco.DropDown.Flexible",
+  "DatabaseType": 1,
+  "Configuration": {
+    "multiple": false,
+    "items": [
+      {
+        "id": 1,
+        "value": "3"
+      },
+      {
+        "id": 2,
+        "value": "4"
+      },
+      {
+        "id": 3,
+        "value": "5"
+      },
+      {
+        "id": 4,
+        "value": "6"
+      },
+      {
+        "id": 5,
+        "value": "7"
+      },
+      {
+        "id": 6,
+        "value": "8"
+      },
+      {
+        "id": 7,
+        "value": "9"
+      },
+      {
+        "id": 8,
+        "value": "10"
+      },
+      {
+        "id": 9,
+        "value": "11"
+      },
+      {
+        "id": 10,
+        "value": "12"
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/cfbba7300d6f46a29476670f3a4bada1",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

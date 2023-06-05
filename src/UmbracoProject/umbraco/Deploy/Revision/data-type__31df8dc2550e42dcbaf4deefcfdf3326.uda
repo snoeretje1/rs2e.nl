@@ -1,0 +1,16 @@
+{
+  "Name": "Blog Page - Numeric",
+  "Alias": "",
+  "EditorAlias": "Umbraco.Integer",
+  "DatabaseType": 2,
+  "Configuration": {
+    "min": 4,
+    "step": 1,
+    "max": 10
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/31df8dc2550e42dcbaf4deefcfdf3326",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

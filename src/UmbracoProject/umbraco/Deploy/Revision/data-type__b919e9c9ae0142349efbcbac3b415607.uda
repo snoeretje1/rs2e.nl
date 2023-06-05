@@ -1,0 +1,34 @@
+{
+  "Name": "Plans Card - OBackgroundColor - Color Picker",
+  "Alias": "",
+  "EditorAlias": "Umbraco.ColorPicker",
+  "DatabaseType": 1,
+  "Configuration": {
+    "useLabel": true,
+    "items": [
+      {
+        "id": 1,
+        "value": "{\"value\":\"70e3e1\",\"label\":\"Light Blue\"}"
+      },
+      {
+        "id": 2,
+        "value": "{\"value\":\"3491cb\",\"label\":\"Blue\"}"
+      },
+      {
+        "id": 3,
+        "value": "{\"value\":\"0149b8\",\"label\":\"Moderate blue\"}"
+      }
+    ]
+  },
+  "Parent": "umb://data-type-container/5b2aefe8c33e4d86878e13b76a9638ed",
+  "Udi": "umb://data-type/b919e9c9ae0142349efbcbac3b415607",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type-container/5b2aefe8c33e4d86878e13b76a9638ed",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

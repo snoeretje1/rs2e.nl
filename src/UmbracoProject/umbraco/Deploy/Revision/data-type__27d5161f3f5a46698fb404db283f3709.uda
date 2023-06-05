@@ -1,0 +1,28 @@
+{
+  "Name": "Full screen top container - Position - Dropdown",
+  "Alias": "",
+  "EditorAlias": "Umbraco.DropDown.Flexible",
+  "DatabaseType": 1,
+  "Configuration": {
+    "multiple": false,
+    "items": [
+      {
+        "id": 1,
+        "value": "center"
+      },
+      {
+        "id": 2,
+        "value": "left"
+      },
+      {
+        "id": 3,
+        "value": "right"
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/27d5161f3f5a46698fb404db283f3709",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

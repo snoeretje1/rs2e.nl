@@ -1,0 +1,151 @@
+{
+  "Name": "Blog Page",
+  "Alias": "oBlog",
+  "DefaultTemplate": "umb://template/118b29f2b6fc467d9ca2a52087b8d891",
+  "AllowedTemplates": [
+    "umb://template/118b29f2b6fc467d9ca2a52087b8d891"
+  ],
+  "HistoryCleanup": {
+    "preventCleanup": false,
+    "keepAllVersionsNewerThanDays": null,
+    "keepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-calendar-alt color-green",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": true,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": [
+      "umb://document-type/0dd292e39e4041d6b2294acd9e8dce4d"
+    ]
+  },
+  "Parent": "umb://document-type-container/09325f61d5c84ec29196054e13e421db",
+  "CompositionContentTypes": [
+    "umb://document-type/7ca7067c866a4ff0ba80d392b8dda98b",
+    "umb://document-type/eca0c8e5a91947d58efee6a6b38d3a11"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "530e2f99-4384-43ac-8129-e3e8d069ea75",
+      "Name": "Share Social Links",
+      "SortOrder": 13,
+      "Type": 0,
+      "Alias": "shareSocialLinks",
+      "PropertyTypes": [
+        {
+          "Key": "197c8fd6-6d1e-4377-93b6-cd9d694ac644",
+          "Alias": "shareLinks",
+          "DataType": "umb://data-type/8387d8a7704e4789aa7a4b330d22748e",
+          "Description": "",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Share Links",
+          "SortOrder": 0,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    },
+    {
+      "Key": "c3bedbec-31db-4f49-ac61-1e1e57b9e442",
+      "Name": "Content",
+      "SortOrder": 0,
+      "Type": 0,
+      "Alias": "content",
+      "PropertyTypes": [
+        {
+          "Key": "7c492255-12c8-48ac-88c7-eacac035f8ca",
+          "Alias": "configBlog",
+          "DataType": "umb://data-type/fbaf13a8403641f293a3974f678c312a",
+          "Description": "",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Config Blog",
+          "SortOrder": 0,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "f4d2b6d0-241e-4534-bf83-4951fdf85290",
+          "Alias": "oTake",
+          "DataType": "umb://data-type/31df8dc2550e42dcbaf4deefcfdf3326",
+          "Description": "",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Number of displayed news",
+          "SortOrder": 3,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/6c5f7b0dc26440e69000e91a24a8fa9b",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/31df8dc2550e42dcbaf4deefcfdf3326",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/8387d8a7704e4789aa7a4b330d22748e",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/fbaf13a8403641f293a3974f678c312a",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/09325f61d5c84ec29196054e13e421db",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/0dd292e39e4041d6b2294acd9e8dce4d",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/7ca7067c866a4ff0ba80d392b8dda98b",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/eca0c8e5a91947d58efee6a6b38d3a11",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/118b29f2b6fc467d9ca2a52087b8d891",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "11.1.2"
+}

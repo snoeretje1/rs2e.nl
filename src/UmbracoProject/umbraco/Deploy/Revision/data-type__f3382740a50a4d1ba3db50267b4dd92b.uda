@@ -1,0 +1,12 @@
+{
+  "Name": "Author and read time - Author - User Picker",
+  "Alias": "",
+  "EditorAlias": "Umbraco.UserPicker",
+  "DatabaseType": 2,
+  "Configuration": {},
+  "Parent": null,
+  "Udi": "umb://data-type/f3382740a50a4d1ba3db50267b4dd92b",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

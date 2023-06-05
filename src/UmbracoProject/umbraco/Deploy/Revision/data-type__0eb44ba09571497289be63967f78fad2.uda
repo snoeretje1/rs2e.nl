@@ -1,0 +1,28 @@
+{
+  "Name": "Position - Dropdown",
+  "Alias": "",
+  "EditorAlias": "Umbraco.DropDown.Flexible",
+  "DatabaseType": 1,
+  "Configuration": {
+    "multiple": false,
+    "items": [
+      {
+        "id": 1,
+        "value": "center"
+      },
+      {
+        "id": 2,
+        "value": "left"
+      },
+      {
+        "id": 3,
+        "value": "right"
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/0eb44ba09571497289be63967f78fad2",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

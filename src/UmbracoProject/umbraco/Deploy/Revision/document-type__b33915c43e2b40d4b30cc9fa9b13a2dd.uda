@@ -1,0 +1,64 @@
+{
+  "Name": "Author and read time",
+  "Alias": "oAuthorAndReadTime",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "preventCleanup": false,
+    "keepAllVersionsNewerThanDays": null,
+    "keepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-operator color-green",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": null,
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "597975ee-79fd-4a65-a0da-3fc7e78362d5",
+      "Name": "Content",
+      "SortOrder": 0,
+      "Type": 0,
+      "Alias": "content",
+      "PropertyTypes": [
+        {
+          "Key": "41984857-76c0-44dd-9c21-bbf756aa30ed",
+          "Alias": "oAuthor",
+          "DataType": "umb://data-type/f3382740a50a4d1ba3db50267b4dd92b",
+          "Description": "",
+          "Mandatory": true,
+          "MandatoryMessage": "Please specify author",
+          "Name": "Author",
+          "SortOrder": 0,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/b33915c43e2b40d4b30cc9fa9b13a2dd",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/f3382740a50a4d1ba3db50267b4dd92b",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "11.1.2"
+}

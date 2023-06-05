@@ -1,0 +1,24 @@
+{
+  "Name": "Links container - Font color - Color Picker",
+  "Alias": "",
+  "EditorAlias": "Umbraco.ColorPicker",
+  "DatabaseType": 1,
+  "Configuration": {
+    "useLabel": true,
+    "items": [
+      {
+        "id": 1,
+        "value": "{\"value\":\"000000\",\"label\":\"Black\"}"
+      },
+      {
+        "id": 2,
+        "value": "{\"value\":\"ffffff\",\"label\":\"White\"}"
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/478805ef5905402198a4d17910423ab9",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

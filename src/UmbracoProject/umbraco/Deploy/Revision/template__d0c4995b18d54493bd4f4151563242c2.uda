@@ -1,0 +1,16 @@
+{
+  "Name": "Left Menu page",
+  "Alias": "LeftMenuPage",
+  "File": "umb://template-file/LeftMenuPage.cshtml",
+  "Master": null,
+  "Udi": "umb://template/d0c4995b18d54493bd4f4151563242c2",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/LeftMenuPage.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.TemplateArtifact",
+  "__version": "11.1.2"
+}

@@ -1,0 +1,147 @@
+{
+  "Name": "Left Menu Page",
+  "Alias": "oGenericAboutPage",
+  "DefaultTemplate": "umb://template/d0c4995b18d54493bd4f4151563242c2",
+  "AllowedTemplates": [
+    "umb://template/d0c4995b18d54493bd4f4151563242c2"
+  ],
+  "HistoryCleanup": {
+    "preventCleanup": false,
+    "keepAllVersionsNewerThanDays": null,
+    "keepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-sitemap color-green",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": [
+      "umb://document-type/da9daff7554a4135924b998da08ce3d8"
+    ]
+  },
+  "Parent": "umb://document-type-container/09325f61d5c84ec29196054e13e421db",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "664b6ed0-b24f-485f-9ad3-0c0d65bb9d28",
+      "Name": "Content",
+      "SortOrder": 1,
+      "Type": 0,
+      "Alias": "content",
+      "PropertyTypes": [
+        {
+          "Key": "b664c616-3e4d-4251-b5b1-d40b4f612d54",
+          "Alias": "oPageContent",
+          "DataType": "umb://data-type/f617209d3911408d8de89928190e702f",
+          "Description": "",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "PageContent",
+          "SortOrder": 0,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    },
+    {
+      "Key": "d8acd4d9-2599-4f2b-8858-ccba8962cbb4",
+      "Name": "Main",
+      "SortOrder": 0,
+      "Type": 0,
+      "Alias": "main",
+      "PropertyTypes": [
+        {
+          "Key": "152fb125-f4a8-4241-9ede-03705d1a6150",
+          "Alias": "startFromSeparatePage",
+          "DataType": "umb://data-type/bcf4f736eec345f1a78e1aa90b9b0434",
+          "Description": "",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Start from separate page",
+          "SortOrder": 0,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    },
+    {
+      "Key": "ee03d580-3106-431f-a888-797503190a3a",
+      "Name": "Menu",
+      "SortOrder": 2,
+      "Type": 0,
+      "Alias": "menu",
+      "PropertyTypes": [
+        {
+          "Key": "c66b3ec1-5217-4208-bdb6-9a542bca7892",
+          "Alias": "oLinks",
+          "DataType": "umb://data-type/b3272231a1f645939f4c232ce6f3e4f2",
+          "Description": "",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Links",
+          "SortOrder": 0,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/da9daff7554a4135924b998da08ce3d8",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/b3272231a1f645939f4c232ce6f3e4f2",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/bcf4f736eec345f1a78e1aa90b9b0434",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/f617209d3911408d8de89928190e702f",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/09325f61d5c84ec29196054e13e421db",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/da9daff7554a4135924b998da08ce3d8",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/d0c4995b18d54493bd4f4151563242c2",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "11.1.2"
+}

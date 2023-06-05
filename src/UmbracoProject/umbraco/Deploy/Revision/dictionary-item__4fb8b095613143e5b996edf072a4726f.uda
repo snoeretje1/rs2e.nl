@@ -1,0 +1,17 @@
+{
+  "Name": "umb://dictionary-item/4fb8b095613143e5b996edf072a4726f",
+  "Alias": "",
+  "ItemKey": "ContactForm.SuccessMessage",
+  "ParentId": null,
+  "Translations": [
+    {
+      "Key": "4fb8b095-6131-43e5-b996-edf072a4726f",
+      "Value": "Message was sent sucessfully.",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Udi": "umb://dictionary-item/4fb8b095613143e5b996edf072a4726f",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DictionaryItemArtifact",
+  "__version": "11.1.2"
+}

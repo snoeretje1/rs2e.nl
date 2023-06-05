@@ -1,0 +1,15 @@
+{
+  "Name": "Pricing Model - Strings",
+  "Alias": "",
+  "EditorAlias": "Umbraco.MultipleTextstring",
+  "DatabaseType": 0,
+  "Configuration": {
+    "Minimum": 3,
+    "Maximum": 3
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/7d71dc6bb7664c7d9daaf9f442199a53",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

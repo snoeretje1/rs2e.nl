@@ -1,0 +1,17 @@
+{
+  "Name": "umb://dictionary-item/f3a4384b21cc4fe0a95ea9a1fa080f89",
+  "Alias": "",
+  "ItemKey": "ContactForm.UnsuccessMessage",
+  "ParentId": null,
+  "Translations": [
+    {
+      "Key": "f3a4384b-21cc-4fe0-a95e-a9a1fa080f89",
+      "Value": "Message not sent.",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Udi": "umb://dictionary-item/f3a4384b21cc4fe0a95ea9a1fa080f89",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DictionaryItemArtifact",
+  "__version": "11.1.2"
+}

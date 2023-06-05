@@ -1,0 +1,28 @@
+{
+  "Name": "Card - ImagePosition - Dropdown",
+  "Alias": "",
+  "EditorAlias": "Umbraco.DropDown.Flexible",
+  "DatabaseType": 1,
+  "Configuration": {
+    "multiple": false,
+    "items": [
+      {
+        "id": 1,
+        "value": "Left"
+      },
+      {
+        "id": 2,
+        "value": "Right"
+      },
+      {
+        "id": 3,
+        "value": "Image top"
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/8f709b3f4bc5471798635bef31a8107f",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

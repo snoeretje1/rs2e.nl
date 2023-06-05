@@ -1,0 +1,16 @@
+{
+  "Name": "Block grid page",
+  "Alias": "BlockGridPage",
+  "File": "umb://template-file/BlockGridPage.cshtml",
+  "Master": null,
+  "Udi": "umb://template/0792027b50124142a9ab248aeb0cfe39",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/BlockGridPage.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.TemplateArtifact",
+  "__version": "11.1.2"
+}

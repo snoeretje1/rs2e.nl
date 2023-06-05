@@ -1,0 +1,16 @@
+{
+  "Name": "About us",
+  "Alias": "AboutUsPage",
+  "File": "umb://template-file/AboutUsPage.cshtml",
+  "Master": null,
+  "Udi": "umb://template/eddd8a713d9340558758c411a2dfd77b",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/AboutUsPage.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.TemplateArtifact",
+  "__version": "11.1.2"
+}

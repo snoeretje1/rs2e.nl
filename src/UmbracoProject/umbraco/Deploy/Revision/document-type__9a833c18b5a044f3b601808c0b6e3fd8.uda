@@ -1,0 +1,82 @@
+{
+  "Name": "Slider container",
+  "Alias": "oSliderContainer",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "preventCleanup": false,
+    "keepAllVersionsNewerThanDays": null,
+    "keepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-slideshow color-green",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/2e94eb86442345b9bd6492446adfdce5",
+  "CompositionContentTypes": [
+    "umb://document-type/813a24a642834ab298f1c53611404464",
+    "umb://document-type/a3c8f13c400f4bd68818857639c21a37"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "dafe093f-d447-47e1-b9d0-fe34f8fe0b22",
+      "Name": "Main",
+      "SortOrder": 5,
+      "Type": 0,
+      "Alias": "main",
+      "PropertyTypes": [
+        {
+          "Key": "594f170d-ba98-4c24-a1b9-3a809a3234f9",
+          "Alias": "oItems",
+          "DataType": "umb://data-type/6890733b402a404ebe1e204ab9555c7f",
+          "Description": "",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Slides",
+          "SortOrder": 6,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/9a833c18b5a044f3b601808c0b6e3fd8",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/6890733b402a404ebe1e204ab9555c7f",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/2e94eb86442345b9bd6492446adfdce5",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/813a24a642834ab298f1c53611404464",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/a3c8f13c400f4bd68818857639c21a37",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "11.1.2"
+}

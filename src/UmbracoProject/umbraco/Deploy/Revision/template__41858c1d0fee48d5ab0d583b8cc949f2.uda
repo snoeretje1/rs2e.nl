@@ -1,0 +1,16 @@
+{
+  "Name": "Site Map Page",
+  "Alias": "SiteMapPage",
+  "File": "umb://template-file/SiteMapPage.cshtml",
+  "Master": null,
+  "Udi": "umb://template/41858c1d0fee48d5ab0d583b8cc949f2",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/SiteMapPage.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.TemplateArtifact",
+  "__version": "11.1.2"
+}

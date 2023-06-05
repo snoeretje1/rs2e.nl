@@ -1,0 +1,130 @@
+{
+  "Name": "oPageContent",
+  "Alias": "",
+  "EditorAlias": "Umbraco.NestedContent",
+  "DatabaseType": 0,
+  "Configuration": {
+    "contentTypes": [
+      {
+        "ncAlias": "oFullScreenTopContainer",
+        "ncTabAlias": "Main",
+        "nameTemplate": "Full Screen area with background - {{oTitle}}"
+      },
+      {
+        "ncAlias": "oCardsContainer",
+        "ncTabAlias": "Main",
+        "nameTemplate": "Cards area - {{oTitle}}"
+      },
+      {
+        "ncAlias": "oLinksContainer",
+        "ncTabAlias": "Main",
+        "nameTemplate": "Links area - {{oTitle}}"
+      },
+      {
+        "ncAlias": "oSliderContainer",
+        "ncTabAlias": "Main",
+        "nameTemplate": "Slides - {{oTitle}}"
+      },
+      {
+        "ncAlias": "oContactContainer",
+        "ncTabAlias": "Title",
+        "nameTemplate": "Contact - {{oTitle}}"
+      },
+      {
+        "ncAlias": "oImageInfoContainer",
+        "ncTabAlias": "Main",
+        "nameTemplate": "Image info area - {{oTitle}}"
+      },
+      {
+        "ncAlias": "oRTE",
+        "ncTabAlias": "Main",
+        "nameTemplate": ""
+      },
+      {
+        "ncAlias": "oCardList",
+        "ncTabAlias": "Main",
+        "nameTemplate": ""
+      },
+      {
+        "ncAlias": "oCallToAction",
+        "ncTabAlias": "Title",
+        "nameTemplate": ""
+      },
+      {
+        "ncAlias": "oQuote",
+        "ncTabAlias": "Main",
+        "nameTemplate": ""
+      },
+      {
+        "ncAlias": "oCodeFragment",
+        "ncTabAlias": "Main",
+        "nameTemplate": ""
+      },
+      {
+        "ncAlias": "oContactLocation",
+        "ncTabAlias": "Main",
+        "nameTemplate": ""
+      },
+      {
+        "ncAlias": "oSearchContainer",
+        "ncTabAlias": "Main",
+        "nameTemplate": "Search"
+      },
+      {
+        "ncAlias": "oPlansCardsContainer",
+        "ncTabAlias": "Main",
+        "nameTemplate": ""
+      },
+      {
+        "ncAlias": "oQuestionAnswerContainer",
+        "ncTabAlias": "Main",
+        "nameTemplate": ""
+      },
+      {
+        "ncAlias": "oQuickContactContainer",
+        "ncTabAlias": "Title",
+        "nameTemplate": "Quick Contact - {{oTitle}}"
+      },
+      {
+        "ncAlias": "oEmployeeContainer",
+        "ncTabAlias": "Main",
+        "nameTemplate": "Employees"
+      },
+      {
+        "ncAlias": "oSliderV2Container",
+        "ncTabAlias": "Main",
+        "nameTemplate": "Slides - {{oTitle}}"
+      },
+      {
+        "ncAlias": "oSliderContainerTeam",
+        "ncTabAlias": "Main",
+        "nameTemplate": ""
+      },
+      {
+        "ncAlias": "oImageContainer",
+        "ncTabAlias": "Content",
+        "nameTemplate": ""
+      },
+      {
+        "ncAlias": "oPricingContainer",
+        "ncTabAlias": "Main",
+        "nameTemplate": ""
+      }
+    ],
+    "confirmDeletes": true,
+    "showIcons": true,
+    "expandsOnLoad": true,
+    "hideLabel": false
+  },
+  "Parent": "umb://data-type-container/5b2aefe8c33e4d86878e13b76a9638ed",
+  "Udi": "umb://data-type/f617209d3911408d8de89928190e702f",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type-container/5b2aefe8c33e4d86878e13b76a9638ed",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}

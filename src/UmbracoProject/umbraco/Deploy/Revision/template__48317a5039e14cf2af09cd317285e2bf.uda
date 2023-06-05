@@ -1,0 +1,16 @@
+{
+  "Name": "Page404",
+  "Alias": "page404",
+  "File": "umb://template-file/page404.cshtml",
+  "Master": null,
+  "Udi": "umb://template/48317a5039e14cf2af09cd317285e2bf",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/page404.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.TemplateArtifact",
+  "__version": "11.1.2"
+}

@@ -1,0 +1,328 @@
+{
+  "Name": "Content Grid - Main Content - Grid layout",
+  "Alias": "",
+  "EditorAlias": "Umbraco.Grid",
+  "DatabaseType": 0,
+  "Configuration": {
+    "items": {
+      "styles": [
+        {
+          "label": "Set a background image",
+          "description": "Set a row background",
+          "key": "background-image",
+          "view": "imagepicker",
+          "modifier": "url({0})"
+        }
+      ],
+      "config": [
+        {
+          "label": "Class",
+          "description": "Set a css class",
+          "key": "class",
+          "view": "textstring"
+        }
+      ],
+      "columns": 12,
+      "templates": [
+        {
+          "name": "1 column layout",
+          "sections": [
+            {
+              "grid": 12
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        {
+          "label": "Full",
+          "name": "Full",
+          "areas": [
+            {
+              "grid": 12,
+              "editors": [
+                "headline"
+              ],
+              "allowAll": false,
+              "allowed": [
+                "docType",
+                "embed",
+                "media",
+                "rte",
+                "oFullScreenTopContainer",
+                "FullScreenTopContainer",
+                "searchContainer",
+                "cardsContainer",
+                "linksContainer",
+                "sliderContainer",
+                "contactContainer",
+                "imageInfoContainer",
+                "cardList",
+                "callToAction",
+                "quote",
+                "codeFragment",
+                "plansCardsContainer",
+                "questionAnswerContainer",
+                "fullScreenTopContainer",
+                "richTextEditor",
+                "quickcontactform"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Half",
+          "areas": [
+            {
+              "grid": 6,
+              "allowAll": false,
+              "allowed": [
+                "docType",
+                "embed",
+                "media",
+                "rte",
+                "richTextEditor",
+                "searchContainer",
+                "cardsContainer",
+                "linksContainer",
+                "sliderContainer",
+                "contactContainer",
+                "cardList",
+                "callToAction",
+                "quote",
+                "plansCardsContainer",
+                "codeFragment",
+                "imageInfoContainer",
+                "contactMapContainer",
+                "contactLocationContainer",
+                "quickcontactform"
+              ]
+            },
+            {
+              "grid": 6,
+              "allowAll": false,
+              "allowed": [
+                "richTextEditor",
+                "searchContainer",
+                "media",
+                "embed",
+                "cardsContainer",
+                "linksContainer",
+                "sliderContainer",
+                "contactContainer",
+                "imageInfoContainer",
+                "cardList",
+                "callToAction",
+                "quote",
+                "codeFragment",
+                "plansCardsContainer",
+                "contactMapContainer",
+                "contactLocationContainer",
+                "quickcontactform"
+              ]
+            }
+          ],
+          "label": "Half"
+        },
+        {
+          "name": "Half with left shift",
+          "areas": [
+            {
+              "grid": 4,
+              "allowAll": false,
+              "allowed": [
+                "richTextEditor",
+                "media",
+                "embed",
+                "cardsContainer",
+                "linksContainer",
+                "sliderContainer",
+                "contactContainer",
+                "imageInfoContainer",
+                "cardList",
+                "callToAction",
+                "quote",
+                "codeFragment",
+                "plansCardsContainer",
+                "contactLocationContainer",
+                "quickcontactform"
+              ]
+            },
+            {
+              "grid": 8,
+              "allowAll": false,
+              "allowed": [
+                "richTextEditor",
+                "searchContainer",
+                "media",
+                "embed",
+                "cardsContainer",
+                "linksContainer",
+                "sliderContainer",
+                "contactContainer",
+                "imageInfoContainer",
+                "cardList",
+                "callToAction",
+                "quote",
+                "codeFragment",
+                "plansCardsContainer",
+                "contactMapContainer",
+                "quickcontactform"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Half with right shift",
+          "areas": [
+            {
+              "grid": 8,
+              "allowAll": false,
+              "allowed": [
+                "richTextEditor",
+                "searchContainer",
+                "media",
+                "embed",
+                "cardsContainer",
+                "linksContainer",
+                "sliderContainer",
+                "contactContainer",
+                "imageInfoContainer",
+                "cardList",
+                "callToAction",
+                "quote",
+                "codeFragment",
+                "plansCardsContainer",
+                "contactMapContainer"
+              ]
+            },
+            {
+              "grid": 4,
+              "allowAll": false,
+              "allowed": [
+                "richTextEditor",
+                "media",
+                "embed",
+                "cardsContainer",
+                "linksContainer",
+                "sliderContainer",
+                "contactContainer",
+                "imageInfoContainer",
+                "cardList",
+                "callToAction",
+                "quote",
+                "codeFragment",
+                "plansCardsContainer",
+                "contactLocationContainer"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Thirds",
+          "areas": [
+            {
+              "grid": 4,
+              "allowAll": false,
+              "allowed": [
+                "docType",
+                "embed",
+                "media",
+                "rte",
+                "richTextEditor",
+                "cardsContainer",
+                "linksContainer",
+                "sliderContainer",
+                "contactContainer",
+                "imageInfoContainer",
+                "cardList",
+                "callToAction",
+                "codeFragment",
+                "quote",
+                "plansCardsContainer",
+                "quickcontactform"
+              ]
+            },
+            {
+              "grid": 4,
+              "allowAll": false,
+              "allowed": [
+                "docType",
+                "embed",
+                "media",
+                "rte",
+                "richTextEditor",
+                "cardsContainer",
+                "linksContainer",
+                "sliderContainer",
+                "contactContainer",
+                "imageInfoContainer",
+                "cardList",
+                "callToAction",
+                "quote",
+                "codeFragment",
+                "plansCardsContainer",
+                "quickcontactform"
+              ]
+            },
+            {
+              "grid": 4,
+              "allowAll": false,
+              "allowed": [
+                "docType",
+                "embed",
+                "media",
+                "rte",
+                "richTextEditor",
+                "cardsContainer",
+                "linksContainer",
+                "sliderContainer",
+                "contactContainer",
+                "imageInfoContainer",
+                "cardList",
+                "callToAction",
+                "quote",
+                "codeFragment",
+                "plansCardsContainer",
+                "quickcontactform"
+              ]
+            }
+          ],
+          "label": "Thirds"
+        }
+      ]
+    },
+    "rte": {
+      "toolbar": [
+        "ace",
+        "styleselect",
+        "bold",
+        "italic",
+        "alignleft",
+        "aligncenter",
+        "alignright",
+        "bullist",
+        "numlist",
+        "outdent",
+        "indent",
+        "link",
+        "umbmediapicker",
+        "umbmacro",
+        "umbembeddialog"
+      ],
+      "stylesheets": [
+        "/css/style.css",
+        "/css/libs.min.css",
+        "/css/glider.min.css"
+      ],
+      "maxImageSize": 750,
+      "mode": "classic"
+    },
+    "ignoreUserStartNodes": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/6c5a97b8ad5e44908306ba7b8d80f1dd",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "11.1.2"
+}
